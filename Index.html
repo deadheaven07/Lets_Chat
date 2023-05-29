@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script><!-- Connecting to the server -->
+    <script defer src="Js/Client.js"></script>
+    <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="Images/chat.png" alt="">
+        <h2>Let's Chat App</h2>
+    </nav>
+    <div class="container">
+        <div class="message left">Hello</div>
+        <div class="message right">Hey</div>
+        <div class="message left">Lets</div>
+        <div class="message right">Chat</div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="Btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
